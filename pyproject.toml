@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agrointellegence"
+version = "0.1.0"
+description = "Cattle breeding analytics: EDA and models to predict final weight."
+authors = [ { name = "Andrew Rios" } ]
+readme = "README.md"
+license = { text = "MIT" }
+dependencies = [
+  "pandas>=1.5",
+  "numpy>=1.24",
+  "scikit-learn>=1.2",
+  "seaborn>=0.12",
+  "matplotlib>=3.6",
+  "joblib>=1.2",
+  "python-dateutil>=2.8",
+]
